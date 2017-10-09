@@ -34,7 +34,8 @@
 		}
 
 		function getContent()
-		{
+		{                                    
+                        // Import variables into the current symbol table from an array
 			extract(get_object_vars($this));
 			ob_start();
 			require_once($this->__dir."/html/{$this->__content}.php");

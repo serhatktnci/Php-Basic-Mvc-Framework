@@ -10,7 +10,7 @@ class SController_Sample extends SController
 
   function define() {
     $v = new SView("sample", $this);
-    $v->test = "testtt";
+    $v->test = "Sample Page";
     $v->display();
   }
 }

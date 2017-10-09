@@ -10,7 +10,7 @@ class SController_Home extends SController
 
   function define() {
     $v = new SView("home", $this);
-    $v->test = "testtt";
+    $v->test = "Home Page";
     $v->display();
   }
 }
