@@ -1,5 +1,5 @@
 <?php
-	class Database extends SObject
+	final class Database extends SObject
 	{
 		var $query;
 		var $conn ;
